@@ -1,0 +1,8 @@
+# default values for blocks
+default height:100 width:100
+
+# block definitions
+bdef symbol:l hit_points:2 fill:image(block_images/broken_heart.png) fill-2:image(block_images/red_heart.png)
+
+# spacers definitions
+sdef symbol:- width:50

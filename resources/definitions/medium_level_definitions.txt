@@ -1,0 +1,67 @@
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Heart
+ball_velocities:45,10 -45,10 -30,10 30,10
+background:image(background_images/heart.jpg)
+paddle_speed:7
+paddle_width:160
+block_definitions:definitions/heart_block_definitions.txt
+blocks_start_x:300
+blocks_start_y:200
+row_height:100
+num_blocks:4
+START_BLOCKS
+ll-------
+ll-------
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+START_LEVEL
+level_name:Chess
+ball_velocities:-85,10 -80,10 -75,10 -70,10 -65,10 -60,10 -50,10 -45,10 -35,10 -30,10 -25,10 -20,10 -15,10 -10,10 -5,10 0,10 5,10 10,10 15,10 20,10 25,10 30,10 35,10 40,10 45,10 50,10 55,10 60,10 65,10 70,10 75,10 80,10 85,10
+background:image(background_images/chess.jpg)
+paddle_speed:7
+paddle_width:160
+block_definitions:definitions/chess_block_definitions.txt
+blocks_start_x:0
+blocks_start_y:0
+row_height:50
+num_blocks:16
+START_BLOCKS
+-
+-
+-
+------lomr------
+------mlro------
+------rmol------
+------orlm------
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name:Smile
+ball_velocities:45,10 -45,10 -30,10 30,10
+background:image(background_images/smilies.jpg)
+paddle_speed:7
+paddle_width:100
+block_definitions:definitions/smile_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:12
+START_BLOCKS
+-
+-
+-
+-
+--llllzzzzssss--
+END_BLOCKS
+END_LEVEL
+
